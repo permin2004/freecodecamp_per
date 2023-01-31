@@ -36,3 +36,321 @@ Indexes:
 Referenced by:
     TABLE "games" CONSTRAINT "games_opponent_id_fkey" FOREIGN KEY (opponent_id) REFERENCES teams(team_id)
     TABLE "games" CONSTRAINT "games_winner_id_fkey" FOREIGN KEY (winner_id) REFERENCES teams(team_id)
+
+codeally@fa6f31c8eb00:~/project$ chmod +x insert_data.sh
+codeally@fa6f31c8eb00:~/project$ chmod +x queries.sh
+codeally@fa6f31c8eb00:~/project$ ./insert_data.sh
+TRUNCATE TABLE
+Inserted into teams, France
+Inserted into teams, Croatia
+Inserted game_id \o/
+Inserted into teams, Belgium
+Inserted into teams, England
+Inserted game_id \o/
+Inserted game_id \o/
+Inserted game_id \o/
+Inserted into teams, Russia
+Inserted game_id \o/
+Inserted into teams, Sweden
+Inserted game_id \o/
+Inserted into teams, Brazil
+Inserted game_id \o/
+Inserted into teams, Uruguay
+Inserted game_id \o/
+Inserted into teams, Colombia
+Inserted game_id \o/
+Inserted into teams, Switzerland
+Inserted game_id \o/
+Inserted into teams, Japan
+Inserted game_id \o/
+Inserted into teams, Mexico
+Inserted game_id \o/
+Inserted into teams, Denmark
+Inserted game_id \o/
+Inserted into teams, Spain
+Inserted game_id \o/
+Inserted into teams, Portugal
+Inserted game_id \o/
+Inserted into teams, Argentina
+Inserted game_id \o/
+Inserted into teams, Germany
+Inserted game_id \o/
+Inserted into teams, Netherlands
+Inserted game_id \o/
+Inserted game_id \o/
+Inserted game_id \o/
+Inserted into teams, Costa Rica
+Inserted game_id \o/
+Inserted game_id \o/
+Inserted game_id \o/
+Inserted game_id \o/
+Inserted into teams, Chile
+Inserted game_id \o/
+Inserted game_id \o/
+Inserted into teams, Nigeria
+Inserted game_id \o/
+Inserted into teams, Algeria
+Inserted game_id \o/
+Inserted game_id \o/
+Inserted into teams, Greece
+Inserted game_id \o/
+Inserted game_id \o/
+Inserted into teams, United States
+Inserted game_id \o/
+codeally@fa6f31c8eb00:~/project$ ./queries.sh
+
+Total number of goals in all games from winning teams:
+68
+
+Total number of goals in all games from both teams combined:
+90
+
+Average number of goals in all games from the winning teams:
+2.1250000000000000
+
+Average number of goals in all games from the winning teams rounded to two decimal places:
+2.13
+
+Average number of goals in all games from both teams:
+2.8125000000000000
+
+Most goals scored in a single game by one team:
+7
+
+Number of games where the winning team scored more than two goals:
+6
+
+Winner of the 2018 tournament team name:
+France
+
+List of teams who played in the 2014 'Eighth-Final' round:
+Argentina
+Belgium
+Brazil
+Colombia
+Costa Rica
+France
+Germany
+Netherlands
+
+List of unique winning team names in the whole data set:
+Argentina
+Belgium
+Brazil
+Colombia
+Costa Rica
+Croatia
+England
+France
+Germany
+Netherlands
+Russia
+Sweden
+Uruguay
+
+Year and team name of all the champions:
+ERROR:  table name "games" specified more than once
+
+
+List of teams that start with 'Co':
+Colombia
+Costa Rica
+codeally@fa6f31c8eb00:~/project$ ./queries.sh
+
+Total number of goals in all games from winning teams:
+68
+
+Total number of goals in all games from both teams combined:
+90
+
+Average number of goals in all games from the winning teams:
+2.1250000000000000
+
+Average number of goals in all games from the winning teams rounded to two decimal places:
+2.13
+
+Average number of goals in all games from both teams:
+2.8125000000000000
+
+Most goals scored in a single game by one team:
+7
+
+Number of games where the winning team scored more than two goals:
+6
+
+Winner of the 2018 tournament team name:
+France
+
+List of teams who played in the 2014 'Eighth-Final' round:
+Algeria
+Argentina
+Belgium
+Brazil
+Chile
+Colombia
+Costa Rica
+France
+Germany
+Greece
+Mexico
+Netherlands
+Nigeria
+Switzerland
+United States
+Uruguay
+
+List of unique winning team names in the whole data set:
+Argentina
+Belgium
+Brazil
+Colombia
+Costa Rica
+Croatia
+England
+France
+Germany
+Netherlands
+Russia
+Sweden
+Uruguay
+
+Year and team name of all the champions:
+ERROR:  table name "games" specified more than once
+
+
+List of teams that start with 'Co':
+Colombia
+Costa Rica
+codeally@fa6f31c8eb00:~/project$ ./queries.sh
+
+Total number of goals in all games from winning teams:
+68
+
+Total number of goals in all games from both teams combined:
+90
+
+Average number of goals in all games from the winning teams:
+2.1250000000000000
+
+Average number of goals in all games from the winning teams rounded to two decimal places:
+2.13
+
+Average number of goals in all games from both teams:
+2.8125000000000000
+
+Most goals scored in a single game by one team:
+7
+
+Number of games where the winning team scored more than two goals:
+6
+
+Winner of the 2018 tournament team name:
+France
+
+List of teams who played in the 2014 'Eighth-Final' round:
+Algeria
+Argentina
+Belgium
+Brazil
+Chile
+Colombia
+Costa Rica
+France
+Germany
+Greece
+Mexico
+Netherlands
+Nigeria
+Switzerland
+United States
+Uruguay
+
+List of unique winning team names in the whole data set:
+Argentina
+Belgium
+Brazil
+Colombia
+Costa Rica
+Croatia
+England
+France
+Germany
+Netherlands
+Russia
+Sweden
+Uruguay
+
+Year and team name of all the champions:
+ERROR:  table name "games" specified more than once
+
+
+List of teams that start with 'Co':
+Colombia
+Costa Rica
+codeally@fa6f31c8eb00:~/project$ ./queries.sh
+
+Total number of goals in all games from winning teams:
+68
+
+Total number of goals in all games from both teams combined:
+90
+
+Average number of goals in all games from the winning teams:
+2.1250000000000000
+
+Average number of goals in all games from the winning teams rounded to two decimal places:
+2.13
+
+Average number of goals in all games from both teams:
+2.8125000000000000
+
+Most goals scored in a single game by one team:
+7
+
+Number of games where the winning team scored more than two goals:
+6
+
+Winner of the 2018 tournament team name:
+France
+
+List of teams who played in the 2014 'Eighth-Final' round:
+Algeria
+Argentina
+Belgium
+Brazil
+Chile
+Colombia
+Costa Rica
+France
+Germany
+Greece
+Mexico
+Netherlands
+Nigeria
+Switzerland
+United States
+Uruguay
+
+List of unique winning team names in the whole data set:
+Argentina
+Belgium
+Brazil
+Colombia
+Costa Rica
+Croatia
+England
+France
+Germany
+Netherlands
+Russia
+Sweden
+Uruguay
+
+Year and team name of all the champions:
+2014|Germany
+2018|France
+
+List of teams that start with 'Co':
+Colombia
+Costa Rica
+codeally@fa6f31c8eb00:~/project$ 
